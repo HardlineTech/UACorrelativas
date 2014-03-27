@@ -1,3 +1,5 @@
+var array = [];
+
 var array1=["1","Introduccion al Derecho"];
 array.push(array1);
 

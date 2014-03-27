@@ -45,7 +45,7 @@
 <body>
 <div class="container">
     <img src="icons/logo-vertical-transparente.png" alt=""/>
-    <h1>Ing. Informatica</h1>
+    <h1>Derecho</h1>
     <label for="selector">Materia: </label>
     <select id="selector">
 
@@ -60,7 +60,7 @@
 <script src="js/alertify.min.js"></script>
 <script src="js/moment-with-langs.min.js"></script>
 <!--<script src="js/correlativas.js"></script>-->
-<script src="js/CorrelativasInformatica.js"></script>
+<script src="js/CorrelativasDerecho.js"></script>
 
 <script>
     L = array.length;
@@ -85,7 +85,7 @@
         if($i == 3){
             $('.correlativas').append('<h2>La correlativa de '+array[id-1][1]+' es: </h1><ul></ul>');
         }else if($i == 2){
-            $('.correlativas').append('<h2>'+array[id-1][1]+' no tiene correlativas</h1><ul></ul>');
+            $('.correlativas').append('<h2 style="color: red">'+array[id-1][1]+' no tiene correlativas</h1><ul></ul>');
         }else{
             $('.correlativas').append('<h2>Las correlativas de '+array[id-1][1]+' son: </h1><ul></ul>');
         }
