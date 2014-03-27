@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.juangesino.miniwolfram"
+        id        = "com.juangesino.uacorrelativas"
         version   = "1.0.1">
 
-    <name>MiniWolfram</name>
+    <name>UA Correlativas</name>
 
     <description>
-        Doin some test bout wolfram widgets yo!
+        Muestra las correlativas de las materias de cada carrera de la Universidad Austral
     </description>
 
     <author href="http://MyBAC.com.ar" email="juanegsino@gmail.com">
@@ -66,11 +66,11 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="icons/Wolfram-Alpha-256.png" />
-    <icon src="icons/Wolfram-Alpha-256.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="icons/Wolfram-Alpha-256.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="icons/Wolfram-Alpha-256.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="icons/Wolfram-Alpha-256.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="icons/Business-Professor.png" />
+    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icons/Business-Professor.png"  gap:platform="android"    gap:density="xhdpi" />
     <!--
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
