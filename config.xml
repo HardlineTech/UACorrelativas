@@ -66,11 +66,11 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="icons/Business-Professor.png" />
-    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="icons/Business-Professor.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="icons/Business-Professor.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="icons/UACicon.png" />
+    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icons/UACicon.png"  gap:platform="android"    gap:density="xhdpi" />
     <!--
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
