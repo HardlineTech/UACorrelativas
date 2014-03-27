@@ -18,7 +18,7 @@ array.push(array5);
 var array6=["6","Quimica 1"];
 array.push(array6);
 
-var array7=["7","Analisis Matematico 2","Analisis Matematico 1"];
+var array7 = ["7", "Analisis Matematico 2", "Analisis Matematico 1"];
 array.push(array7);
 
 var array8=["8","Algebra 2","Algebra 1"];
