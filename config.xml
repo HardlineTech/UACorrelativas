@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.juangesino.uacorrelativas"
-        version   = "1.5">
+        version   = "1.1">
 
     <name>UA Correlativas</name>
 
@@ -66,11 +66,11 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="icons/UACicon.png" />
-    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="icons/UACicon.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="icons/UACicon.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="icons/1.png" />
+    <icon src="icons/1.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icons/1.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icons/1.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icons/1.png"  gap:platform="android"    gap:density="xhdpi" />
     <!--
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>

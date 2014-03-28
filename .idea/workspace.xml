@@ -22,19 +22,7 @@
     <favorites_list name="UA Correlativas" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="para_que_sirve_comunicacion.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/para_que_sirve_comunicacion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="23" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.27328244" vertical-offset="603" max-vertical-offset="1819">
-              <folding>
-                <marker date="1395972629129" expanded="false" signature="2596:2606" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -44,7 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/correlativas_derecho.html" />
         <option value="$PROJECT_DIR$/index_derecho.html" />
         <option value="$PROJECT_DIR$/index_industrial.html" />
@@ -52,14 +39,15 @@
         <option value="$PROJECT_DIR$/para_que_sirve_derecho.html" />
         <option value="$PROJECT_DIR$/correlativas_industrial.html" />
         <option value="$PROJECT_DIR$/correlativas_informatica.html" />
-        <option value="$PROJECT_DIR$/para_que_sirve_informatica.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_industrial.html" />
         <option value="$PROJECT_DIR$/css/general.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_comunicacion.html" />
         <option value="$PROJECT_DIR$/correlativas_comunicacion.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_comunicacion.html" />
         <option value="$PROJECT_DIR$/js/CorrelativasComunicacion.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/para_que_sirve_informatica.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -124,7 +112,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -142,11 +130,19 @@
       <recent name="C:\xampp\htdocs\UA Correlativas\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\UA Correlativas\js" />
       <recent name="C:\xampp\htdocs\UA Correlativas\icons" />
+      <recent name="C:\xampp\htdocs\UA Correlativas\js" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -155,14 +151,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -189,13 +177,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -222,117 +210,59 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/CorrelativasIndustrial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="403" selection-end="403" vertical-scroll-proportion="-0.1530303" vertical-offset="441" max-vertical-offset="2958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.20763358" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
-        </state>
+        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.20763358" vertical-offset="0" max-vertical-offset="1037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.053435113" vertical-offset="101" max-vertical-offset="1037">
-          <folding />
-        </state>
+        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.053435113" vertical-offset="101" max-vertical-offset="1037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_informatica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.13129771" vertical-offset="50" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.13129771" vertical-offset="50" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/correlativas_derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="46" selection-start="1326" selection-end="1347" vertical-scroll-proportion="0.38931298" vertical-offset="595" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="50" column="46" selection-start="1326" selection-end="1347" vertical-scroll-proportion="0.38931298" vertical-offset="595" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/correlativas_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="46" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.3114504" vertical-offset="646" max-vertical-offset="1785">
-          <folding>
-            <marker date="1395971757911" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="50" column="46" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.3114504" vertical-offset="646" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/correlativas_informatica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="46" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.5648855" vertical-offset="480" max-vertical-offset="1802">
-          <folding>
-            <marker date="1395971757981" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/para_que_sirve_informatica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="46" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.6763359" vertical-offset="407" max-vertical-offset="1819">
-          <folding>
-            <marker date="1395971757940" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="50" column="46" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.5648855" vertical-offset="480" max-vertical-offset="1802" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="-0.37862596" vertical-offset="384" max-vertical-offset="1819">
-          <folding>
-            <marker date="1395971757968" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="-0.37862596" vertical-offset="384" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="44" selection-end="44" vertical-scroll-proportion="0.04992658" vertical-offset="0" max-vertical-offset="681">
-          <folding />
-        </state>
+        <state line="2" column="1" selection-start="44" selection-end="44" vertical-scroll-proportion="0.04992658" vertical-offset="0" max-vertical-offset="681" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="11" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.3740458" vertical-offset="690" max-vertical-offset="1819">
-          <folding>
-            <marker date="1395971757995" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="58" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-16.692308" vertical-offset="348" max-vertical-offset="1088">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="55" column="11" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.3740458" vertical-offset="690" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="63" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.58473283" vertical-offset="382" max-vertical-offset="1037">
-          <folding />
-        </state>
+        <state line="45" column="63" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.58473283" vertical-offset="382" max-vertical-offset="1037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/correlativas_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="50" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.2458016" vertical-offset="255" max-vertical-offset="1785">
-          <folding>
-            <marker date="1395972584590" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="63" column="50" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.2458016" vertical-offset="255" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/CorrelativasComunicacion.js">
@@ -342,11 +272,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="290" selection-end="290" vertical-scroll-proportion="0.15269461" vertical-offset="0" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/para_que_sirve_informatica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="1" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.7664122" vertical-offset="1096" max-vertical-offset="1819">
+          <folding>
+            <marker date="1395978682427" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="58" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.60280377" vertical-offset="446" max-vertical-offset="1088">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.27328244" vertical-offset="603" max-vertical-offset="1819">
+        <state line="46" column="23" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.22137405" vertical-offset="637" max-vertical-offset="1819">
           <folding>
-            <marker date="1395972629129" expanded="false" signature="2596:2606" placeholder="..." />
+            <marker date="1395972629129" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
