@@ -22,7 +22,19 @@
     <favorites_list name="UA Correlativas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="para_que_sirve_derecho.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/para_que_sirve_derecho.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="45" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.6854962" vertical-offset="384" max-vertical-offset="1802">
+              <folding>
+                <marker date="1395968061791" expanded="false" signature="2535:2545" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -41,13 +53,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_informatica.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_industrial.html" />
-        <option value="$PROJECT_DIR$/para_que_sirve_derecho.html" />
         <option value="$PROJECT_DIR$/index_informatica.html" />
         <option value="$PROJECT_DIR$/index_industrial.html" />
         <option value="$PROJECT_DIR$/index_derecho.html" />
         <option value="$PROJECT_DIR$/correlativas_informatica.html" />
         <option value="$PROJECT_DIR$/correlativas_industrial.html" />
         <option value="$PROJECT_DIR$/correlativas_derecho.html" />
+        <option value="$PROJECT_DIR$/para_que_sirve_derecho.html" />
       </list>
     </option>
   </component>
@@ -108,6 +120,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -247,15 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/para_que_sirve_derecho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="24" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.3321918" vertical-offset="486" max-vertical-offset="1802">
-          <folding>
-            <marker date="1395967899799" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="39" selection-start="1323" selection-end="1323" vertical-scroll-proportion="1.0396947" vertical-offset="67" max-vertical-offset="1003">
@@ -308,6 +312,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="27" selection-start="530" selection-end="530" vertical-scroll-proportion="0.15725191" vertical-offset="152" max-vertical-offset="1020">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/para_que_sirve_derecho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="45" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.6854962" vertical-offset="384" max-vertical-offset="1802">
+          <folding>
+            <marker date="1395968061791" expanded="false" signature="2535:2545" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
