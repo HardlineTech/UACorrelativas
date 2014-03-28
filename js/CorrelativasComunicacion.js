@@ -74,87 +74,87 @@ var array23=["23","Generos y Estilos Informativos","Produccion Discursiva"];
 array.push(array23);
 
 
-var array25=["25","Produccion Radiofonica"];
+var array24=["24","Produccion Radiofonica"];
+array.push(array24);
+
+
+var array25=["25","Psicologia de la Comunicacion Publica"];
 array.push(array25);
 
 
-var array26=["26","Psicologia de la Comunicacion Publica"];
+var array26=["26","Teoria y Tecnica de la Narracion Audiovisual","Narracion Audiovisual"];
 array.push(array26);
 
 
-var array27=["27","Teoria y Tecnica de la Narracion Audiovisual","Narracion Audiovisual"];
+var array27=["27","Analisis e Informacion de la Sociedad"];
 array.push(array27);
 
 
-var array28=["28","Analisis e Informacion de la Sociedad"];
+var array28=["28","Analisis e Informacion Internacional"];
 array.push(array28);
 
 
-var array29=["29","Analisis e Informacion Internacional"];
+var array29=["29","Deontologia"];
 array.push(array29);
 
 
-var array30=["30","Deontologia"];
+var array30=["30","Realizacion Readiofonica","Produccion Radiofonica"];
 array.push(array30);
 
 
-var array31=["31","Realizacion Readiofonica","Produccion Radiofonica"];
+var array31=["31","Taller de Realizacion Audiovisual","Teoria y Tecnica de la Narracion Audiovisual"];
 array.push(array31);
 
 
-var array32=["32","Taller de Realizacion Audiovisual","Teoria y Tecnica de la Narracion Audiovisual"];
+var array32=["32","Taller de Realizacion Periodistica","Generos y Estilos Informativos"];
 array.push(array32);
 
 
-var array33=["33","Taller de Realizacion Periodistica","Generos y Estilos Informativos"];
+var array33=["33","Generos y Estilos Creativos"];
 array.push(array33);
 
 
-var array34=["34","Generos y Estilos Creativos"];
+var array34=["34","Informacion y Persuacion Publicitaria"];
 array.push(array34);
 
 
-var array35=["35","Informacion y Persuacion Publicitaria"];
+var array35=["35","Introduccion al Management"];
 array.push(array35);
 
 
-var array36=["36","Introduccion al Management"];
+var array36=["36","Comunicacion en las Organizaciones"];
 array.push(array36);
 
 
-var array37=["37","Comunicacion en las Organizaciones"];
+var array37=["37","Seminario de Insercion Profesional"];
 array.push(array37);
 
 
-var array38=["38","Seminario de Insercion Profesional"];
+var array38=["38","Economia e Informacion Economica"];
 array.push(array38);
 
 
-var array39=["39","Economia e Informacion Economica"];
+var array39=["39","Marketing y Gestion de Empresas Informativas"];
 array.push(array39);
 
 
-var array40=["40","Marketing y Gestion de Empresas Informativas"];
+var array40=["40","Derecho de la Informacion"];
 array.push(array40);
 
 
-var array41=["41","Derecho de la Informacion"];
+var array41=["41","Proyecto Profesional"];
 array.push(array41);
 
 
-var array42=["42","Proyecto Profesional"];
+var array42=["42","Identidad Cultural Argentina"];
 array.push(array42);
 
 
-var array43=["43","Identidad Cultural Argentina"];
+var array43=["43","Periodismo y Democracia"];
 array.push(array43);
 
 
-var array44=["44","Periodismo y Democracia"];
+var array44=["44","Sociologia de la Comunicacion Colectiva"];
 array.push(array44);
-
-
-var array45=["45","Sociologia de la Comunicacion Colectiva"];
-array.push(array45);
 
 
