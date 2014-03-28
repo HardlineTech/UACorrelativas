@@ -43,7 +43,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index_industrial.html" />
-        <option value="$PROJECT_DIR$/index_informatica.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_derecho.html" />
         <option value="$PROJECT_DIR$/correlativas_industrial.html" />
         <option value="$PROJECT_DIR$/correlativas_informatica.html" />
@@ -58,6 +57,7 @@
         <option value="$PROJECT_DIR$/js/GA.js" />
         <option value="$PROJECT_DIR$/correlativas_comunicacion.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index_informatica.html" />
       </list>
     </option>
   </component>
@@ -172,14 +172,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="842" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -206,16 +206,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index_industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.053435113" vertical-offset="101" max-vertical-offset="1037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_informatica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.13129771" vertical-offset="50" max-vertical-offset="1224" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/correlativas_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="46" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.3114504" vertical-offset="646" max-vertical-offset="1785" />
@@ -304,6 +294,20 @@
     <entry file="file://$PROJECT_DIR$/js/GA.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="25" selection-start="64" selection-end="64" vertical-scroll-proportion="0.07634731" vertical-offset="0" max-vertical-offset="668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_informatica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.37709925" vertical-offset="382" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_industrial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.053435113" vertical-offset="101" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
