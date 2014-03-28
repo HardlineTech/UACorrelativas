@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/alertify.core.css" rel="stylesheet">
+    <link href="css/alertify.default.css" rel="stylesheet">
+    <style>
+        body, html {
+            background-color: #feffeb;
+            color: #333333;
+        }
+        h1{
+            font-family: 'Metrophobic', sans-serif;
+            color: #333333;
+            margin-bottom: 35px;
+        }
+        label{
+            color: #333333;
+        }
+        option {
+            color: #333333;
+        }
+        select {
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 15pt;
+        }
+        ul li a {
+            background-color: #428bca;
+            color: #333333;
+            font-size: 20pt;
+        }
+        .nav>li>a:hover, .nav>li>a:focus {
+            background-color: #428bca;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="icons/logo-vertical-transparente.png" alt=""/>
+    <h1>Ing. Industrial</h1>
+    <label for="selector">Materia: </label>
+    <select id="selector">
+
+    </select>
+    <div class="correlativas">
+        <h1>Sirve para:</h1>
+        <ul></ul>
+    </div>
+</div>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/alertify.min.js"></script>
+<script src="js/moment-with-langs.min.js"></script>
+<!--<script src="js/correlativas.js"></script>-->
+<script src="js/CorrelativasIndustrial.js"></script>
+
+<script>
+    L = array.length;
+
+    for(var $i=0 ; $i < L ; $i++){
+        $('#selector').append('<option value="'+array[$i][1]+'">'+array[$i][1]+'</option>');
+    }
+
+    $('#selector').change(function(){
+        get_ParaQueSirve();
+    });
+
+    $('#selector').click(function(){
+        get_ParaQueSirve();
+    });
+
+    function get_ParaQueSirve(){
+        $('li').remove();
+        $('h3').remove();
+        target = $('select option:selected').val();
+        sirve = 0;
+        for(var $i = 0 ; $i < L ; $i++){
+            L2 = array[$i].length;
+            for(var $j = 2 ; $j < L2 ; $j++){
+                if(array[$i][$j] == target){
+                    $('ul').append('<li>'+array[$i][1]+'</li>');
+                    sirve++;
+                }
+            }
+        }
+        if(sirve == 0){
+            $('ul').append('<h3 style="color: red">No sirve para nada!</h3>');
+        }
+    }
+</script>
+</body>
+</html>
