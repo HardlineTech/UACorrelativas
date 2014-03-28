@@ -90,120 +90,120 @@ var array23=["23","Teologia Moral","Teologia Dogmatica"];
 array.push(array23);
 
 
-var array25=["25","Derecho de los Cotratos 1","Derecho de las Obligaciones"];
+var array24=["24","Derecho de los Cotratos 1","Derecho de las Obligaciones"];
+array.push(array24);
+
+
+var array25=["25","Derecho Procesal Penal"];
 array.push(array25);
 
 
-var array26=["26","Derecho Procesal Penal"];
+var array26=["26","Derecho del Trabajo"];
 array.push(array26);
 
 
-var array27=["27","Derecho del Trabajo"];
+var array27=["27","Doctrina Social de la Iglesia"];
 array.push(array27);
 
 
-var array28=["28","Doctrina Social de la Iglesia"];
+var array28=["28","Seminario de Responsabilidad Ciudadana"];
 array.push(array28);
 
 
-var array29=["29","Seminario de Responsabilidad Ciudadana"];
+var array29=["29","Derecho de los Cotratos 2","Derecho de los Cotratos 1"];
 array.push(array29);
 
 
-var array30=["30","Derecho de los Cotratos 2","Derecho de los Cotratos 1"];
+var array30=["30","Derecho Societario"];
 array.push(array30);
 
 
-var array31=["31","Derecho Societario"];
+var array31=["31","Derecho Administrativo 1","Derecho Administrativo 2 C"];
 array.push(array31);
 
 
-var array32=["32","Derecho Administrativo 1","Derecho Administrativo 2 C"];
+var array32=["32","Seminario Optativo 3"];
 array.push(array32);
 
 
-var array33=["33","Seminario Optativo 3"];
+var array33=["33","Derecho Procesal Civil"];
 array.push(array33);
 
 
-var array34=["34","Derecho Procesal Civil"];
+var array34=["34","Derechos Reales"];
 array.push(array34);
 
 
-var array35=["35","Derechos Reales"];
+var array35=["35","Derecho de los Titulos de Credito"];
 array.push(array35);
 
 
-var array36=["36","Derecho de los Titulos de Credito"];
+var array36=["36","Derecho de Familia"];
 array.push(array36);
 
 
-var array37=["37","Derecho de Familia"];
+var array37=["37","Derecho Administrativo 2"];
 array.push(array37);
 
 
-var array38=["38","Derecho Administrativo 2"];
+var array38=["38","Derecho Concursal"];
 array.push(array38);
 
 
-var array39=["39","Derecho Concursal"];
+var array39=["39","Derecho de las Sucesiones"];
 array.push(array39);
 
 
-var array40=["40","Derecho de las Sucesiones"];
+var array40=["40","Derecho de la Integracion"];
 array.push(array40);
 
 
-var array41=["41","Derecho de la Integracion"];
+var array41=["41","Common Law Institutions 3"];
 array.push(array41);
 
 
-var array42=["42","Common Law Institutions 3"];
+var array42=["42","Seminario de Medios Alternativos de Resolucion de Conflictos"];
 array.push(array42);
 
 
-var array43=["43","Seminario de Medios Alternativos de Resolucion de Conflictos"];
+var array43=["43","Seminario de Analisis Economico del Derecho"];
 array.push(array43);
 
 
-var array44=["44","Seminario de Analisis Economico del Derecho"];
+var array44=["44","Clinica Juridica"];
 array.push(array44);
 
 
-var array45=["45","Clinica Juridica"];
+var array45=["45","Derecho Internacional Privado"];
 array.push(array45);
 
 
-var array46=["46","Derecho Internacional Privado"];
+var array46=["46","Derecho Tributario"];
 array.push(array46);
 
 
-var array47=["47","Derecho Tributario"];
+var array47=["47","Estrategia y Prueba en el Asesoramiento y el Litigio"];
 array.push(array47);
 
 
-var array48=["48","Estrategia y Prueba en el Asesoramiento y el Litigio"];
+var array48=["48","Filosofia del Derecho"];
 array.push(array48);
 
 
-var array49=["49","Filosofia del Derecho"];
+var array49=["49","Etica Profesional"];
 array.push(array49);
 
 
-var array50=["50","Etica Profesional"];
+var array50=["50","Modulo Operativo 4"];
 array.push(array50);
 
 
-var array51=["51","Modulo Operativo 4"];
+var array51=["51","Pasantia Profesional Obligatoria 5"];
 array.push(array51);
 
 
-var array52=["52","Pasantia Profesional Obligatoria 5"];
+var array52=["52","Programa de Intercambio Internacional"];
 array.push(array52);
-
-
-var array53=["53","Programa de Intercambio Internacional"];
-array.push(array53);
 
 
 
