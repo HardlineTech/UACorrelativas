@@ -7,6 +7,7 @@
     <link href="css/alertify.core.css" rel="stylesheet">
     <link href="css/alertify.default.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
+    <script src="js/GA.js"></script>
     <style>
         @import url(http://fonts.googleapis.com/css?family=Metrophobic);
         body, html {
@@ -37,7 +38,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="initialize();" onunload="goingAway();">
 <div class="container">
     <img src="icons/logo-vertical-transparente.png" alt=""/>
     <ul class="nav nav-pills nav-stacked">
