@@ -46,14 +46,13 @@
 <body>
 <div class="container">
     <img src="icons/logo-vertical-transparente.png" alt=""/>
-    <h1>Derecho</h1>
+    <h1>Comunicacion</h1>
     <label for="selector">Materia: </label>
     <select id="selector" class="form-control">
 
     </select>
     <div class="correlativas">
-        <h1>Sirve para:</h1>
-        <ul></ul>
+
     </div>
 </div>
 
@@ -62,39 +61,38 @@
 <script src="js/alertify.min.js"></script>
 <script src="js/moment-with-langs.min.js"></script>
 <!--<script src="js/correlativas.js"></script>-->
-<script src="js/CorrelativasDerecho.js"></script>
+<script src="js/CorrelativasComunicacion.js"></script>
 
 <script>
     L = array.length;
 
     for(var $i=0 ; $i < L ; $i++){
-        $('#selector').append('<option value="'+array[$i][1]+'">'+array[$i][1]+'</option>');
+        $('#selector').append('<option value="'+array[$i][0]+'">'+array[$i][1]+'</option>');
     }
 
     $('#selector').change(function(){
-        get_ParaQueSirve();
+        get_correlativas();
     });
 
     $('#selector').click(function(){
-        get_ParaQueSirve();
+        get_correlativas();
     });
 
-    function get_ParaQueSirve(){
-        $('li').remove();
-        $('h3').remove();
-        target = $('select option:selected').val();
-        sirve = 0;
-        for(var $i = 0 ; $i < L ; $i++){
-            L2 = array[$i].length;
-            for(var $j = 2 ; $j < L2 ; $j++){
-                if(array[$i][$j] == target){
-                    $('ul').append('<li>'+array[$i][1]+'</li>');
-                    sirve++;
-                }
-            }
+    function get_correlativas(){
+        $('h2').remove();
+        $('ul').remove();
+        id = $('select option:selected').val();
+        $i = array[id-1].length;
+        if($i == 3){
+            $('.correlativas').append('<h2>La correlativa de '+array[id-1][1]+' es: </h1><ul></ul>');
+        }else if($i == 2){
+            $('.correlativas').append('<h2 style="color: red">'+array[id-1][1]+' no tiene correlativas</h1><ul></ul>');
+        }else{
+            $('.correlativas').append('<h2>Las correlativas de '+array[id-1][1]+' son: </h1><ul></ul>');
         }
-        if(sirve == 0){
-            $('ul').append('<h3 style="color: red">No sirve para nada!</h3>');
+
+        for(var $j = 0 ; $j < $i-2 ; $j++){
+            $('ul').append('<li>'+array[id-1][$j+2]+'</li>');
         }
     }
 </script>
