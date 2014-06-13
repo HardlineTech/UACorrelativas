@@ -45,14 +45,14 @@
 </head>
 <body>
 <div class="container">
-    <img src="icons/logo-vertical-transparente.png" alt=""/>
+    <img src="icons/logo-vertical-transparente.png" alt="" class="img-responsive logo"/>
     <h1>Derecho</h1>
     <label for="selector">Materia: </label>
     <select id="selector" class="form-control">
 
     </select>
     <div class="correlativas">
-        <h1>Sirve para:</h1>
+        <h1>Te habilita:</h1>
         <ul></ul>
     </div>
 </div>
@@ -94,7 +94,7 @@
             }
         }
         if(sirve == 0){
-            $('ul').append('<h3 style="color: red">No sirve para nada!</h3>');
+            $('ul').append('<h3 style="color: red">No te habilita ninguna materia!</h3>');
         }
     }
 </script>
