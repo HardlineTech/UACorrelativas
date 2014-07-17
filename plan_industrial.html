@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/alertify.core.css" rel="stylesheet">
+    <link href="css/alertify.default.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <style>
+        body, html {
+            background-color: #feffeb;
+            color: black;
+        }
+        h1{
+            font-family: 'Metrophobic', sans-serif;
+            color: black;
+            margin-bottom: 35px;
+        }
+        label{
+            color: black;
+        }
+        option {
+            color: black;
+        }
+        select {
+            color: black;
+        }
+        li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 10pt;
+        }
+        ul li a {
+            background-color: #428bca;
+            color: black;
+            font-size: 20pt;
+        }
+        .nav>li>a:hover, .nav>li>a:focus {
+            background-color: #428bca;
+            color: black;
+        }
+        .plan {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="icons/logo-vertical-transparente.png" alt="" class="img-responsive logo"/>
+    <h1>Ing. Industrial</h1>
+    <!--
+    <label for="selector">Materia: </label>
+    <select id="selector" class="form-control">
+        <option value="1">Primer a&ntilde;o</option>
+        <option value="2">Segundo a&ntilde;o</option>
+        <option value="3">Tercer a&ntilde;o</option>
+        <option value="4">Cuarto a&ntilde;o</option>
+    </select>
+    -->
+    <div class="plan">
+        <h2>Primer A&ntilde;o:</h2>
+        <h3>1<sup>er</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Analisis Matematico I</li>
+            <li>Algebra I</li>
+            <li>Introduccion a la Programacion I</li>
+            <li>Quimica I</li>
+            <li>Introduccion a la Ingenieria</li>
+            <li>Introduccion a la Filosofia</li>
+        </ul>
+        <h3>2<sup>do</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Analisis Matematico II</li>
+            <li>Algebra II</li>
+            <li>Introduccion a la Programacion II</li>
+            <li>Quimica II</li>
+            <li>Fisica I</li>
+        </ul>
+        <hr>
+
+        <h2>Segundo A&ntilde;o:</h2>
+        <h3>1<sup>er</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Analisis Matematico III</li>
+            <li>Fisica II</li>
+            <li>Estadistica I</li>
+            <li>Estabilidad</li>
+            <li>Antropologia</li>
+        </ul>
+        <h3>2<sup>do</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Analisis Matematico IV</li>
+            <li>Fisica III</li>
+            <li>Estadistica II</li>
+            <li>Termodinamica</li>
+            <li>Ingenieria Grafica</li>
+        </ul>
+        <hr>
+
+        <h2>Tercer A&ntilde;o:</h2>
+        <h3>1<sup>er</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Produccion I</li>
+            <li>Tecnicas de la Comunicacion</li>
+            <li>Etica General</li>
+            <li>Mecanismos</li>
+            <li>Mecanica de Fluidos</li>
+            <li>Electrotecnia</li>
+        </ul>
+        <h3>2<sup>do</sup> Cuatrimestre:</h3>
+        <ul>
+            <li>Quimica Industrial</li>
+            <li>Tecnologia de los materiales</li>
+            <li>Teologia I</li>
+            <li>Produccion II</li>
+            <li>Investigacion Operativa</li>
+        </ul>
+        <hr>
+
+        <h2>Cuarto A&ntilde;o:</h2>
+        <ul>
+            <li>Circuitos Electricos</li>
+            <li>Instrumentacion y Control</li>
+            <li>Maquinas Electricas</li>
+            <li>Mecanica Aplicada</li>
+            <li>Produccion III</li>
+            <li>Produccion IV</li>
+            <li>Maquinas Termicas</li>
+            <li>Practica Profesional</li>
+            <li>Contabilidad y Presupuestos</li>
+            <li>Finanzas y Evolucion de Proyectos</li>
+            <li>Teologia II</li>
+            <li>Doctrina Social de la Iglesia</li>
+            <li>Maquinas Herramientas</li>
+        </ul>
+        <hr/>
+
+        <h2>Quinto A&ntilde;o:</h2>
+        <ul>
+            <li>Logistica Empresaria</li>
+            <li>Evolucion Socio Economica Argentina</li>
+            <li>Mantenimiento y Seguridad</li>
+            <li>Sistemas de Informacion Industrial</li>
+            <li>Industrias I</li>
+            <li>Industrias II</li>
+            <li>Legal</li>
+            <li>Factor Humano</li>
+            <li>Instalaciones Industriales</li>
+            <li>Economia Politica</li>
+            <li>Etica Profesional</li>
+        </ul>
+        <hr/>
+    </div>
+</div>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/alertify.min.js"></script>
+<script src="js/moment-with-langs.min.js"></script>
+<!--
+<script>
+
+    $('#selector').change(function(){
+        get_materias();
+    });
+
+    $('#selector').click(function(){
+        get_materias();
+    });
+
+    function get_materias(){
+        $('h2').remove();
+        $('ul').remove();
+        id = $('select option:selected').val();
+        if(id == 1){
+            $('.plan').append('<h2>Primer a&ntilde;o:</h1><ul><li>Antropologia</li><li>Contenidos Culturales Contemporaneos</li><li>Cultura Informativa Visual</li><li>Epistemologia de la Comunicacion Social</li><li>Historia Argentina y Latinoamericana</li><li>Historia Universal Contemporanea</li><li>Historia y Cultura de la Comunicacion</li><li>Introduccion a la Publicidad</li><li>Introduccion al Periodismo</li><li>Teologia I</li><li>Teoria y Practica de la Lengua I</li><li>Teoria y Practica de la Lengua II</li></ul>');
+        }else if(id == 2){
+            $('.plan').append('<h2>Segundo a&ntilde;o:</h1><ul><li>Analisis del Discurso</li><li>Analisis e Informacion de la Politica</li><li>Dise&ntilde;o Editorial</li><li>Estructura y Critica de la Informacion</li><li>Imagen Corporativa</li><li>Narracion Audiovisual</li><li>Produccion Discursiva</li><li>Tecnologias de la Informacion y la Comunicacion</li><li>Teologia II</li><li>Teoria General de la Informacion</li></ul>');
+        }else if(id == 3){
+            $('.plan').append('<h2>Tercer a&ntilde;o:</h1><ul><li>Analisis e Informacion Internacional</li><li>Analisis e Informacion de la Sociedad</li><li>Deontologia</li><li>Generos y Estilos Informativos</li><li>Produccion Radiofonica</li><li>Taller de Realizacion Audiovisual</li><li>Taller de Redaccion Periodistica</li><li>Teoria y Tecnica de la Narracion Audiovisual</li></ul>');
+        }else if(id == 4){
+            $('.plan').append('<h2>Cuarto a&ntilde;o:</h1><ul><li>Comunicacion en las Organizaciones</li><li>Derecho de la Inofrmacion</li><li>Economia e Informacion Economica</li><li>Generos y Estilos Creativos</li><li>Informacion y Persuasion Publicitaria</li><li>Introduccion al Management</li><li>Marketing y Gestion de Empresas Informativas</li><li>Materia Electiva</li><li>Proyecto Profesional</li><li>Seminario de Insercion Profesional</li><li>Sociologia de la Comunicacion Colectiva</li></ul>');
+        }
+
+        for(var $j = 0 ; $j < $i-2 ; $j++){
+            $('ul').append('<li>'+array[id-1][$j+2]+'</li>');
+        }
+    }
+</script>
+-->
+</body>
+</html>
