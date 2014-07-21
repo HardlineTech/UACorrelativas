@@ -48,7 +48,7 @@
         <li><a href="index_comunicacion.html">Comunicacion</a></li>
     </ul>
     <div class="footer">
-        <p style="float:right;"><a style="color: #333333;" href="http://www.hardlinetech.com">Dise&ntilde;ado y desarrollado por HardlineTech &copy; 2014</a></p>
+        <p style="float:right;"><a style="color: #333333;" class="navLink" href="#" data-url="http://www.hardlinetech.com">Dise&ntilde;ado y desarrollado por HardlineTech &copy; 2014</a></p>
     </div>
 </div>
 
@@ -56,5 +56,13 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/alertify.min.js"></script>
 <script src="js/moment-with-langs.min.js"></script>
+<script>
+    $(".navLink").on('tap', function (e) {
+        //Prevents Default Behavior
+        e.preventDefault();
+        // Calls Your Function with the URL from the custom data attribute
+        openUrl($(this).data('url'), '_system');
+    });
+</script>
 </body>
 </html>

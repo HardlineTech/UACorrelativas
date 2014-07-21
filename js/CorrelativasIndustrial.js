@@ -27,7 +27,7 @@ array.push(array8);
 var array9=["9","Fisica 1","Analisis Matematico 1"];
 array.push(array9);
 
-var array10=["10","Qumimica 2","Quimica 1"];
+var array10=["10","Qumica 2","Quimica 1"];
 array.push(array10);
 
 var array11=["11","Programacion 2","Programacion 1"];
@@ -60,7 +60,7 @@ array.push(array19);
 var array20=["20","Ingenieria Grafica"];
 array.push(array20);
 
-var array21=["21","Fisica 3","Fisica 2", "Analisis Matematico 3"];
+var array21=["21","Fisica 3","Fisica 1", "Analisis Matematico 3"];
 array.push(array21);
 
 var array22=["22","Mecanismos","Estabilidad","Ingenieria Grafica"];
@@ -132,7 +132,7 @@ array.push(array43);
 var array44=["44","Doctrina Social de la Iglesia","Teologia 2"];
 array.push(array44);
 
-var array45=["45","Practica Profesional","6to Cuat. Aprobado","7mo Cuat. Cursado"];
+var array45=["45","Practica Profesional","6to Cuatrimestre Aprobado","7mo Cuatrimestre Cursado"];
 array.push(array45);
 
 var array46=["46","Instalaciones Industriales","Quimica Industrial","Maquinas Electricas","Maquinas Termicas"];

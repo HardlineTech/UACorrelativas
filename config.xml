@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.juangesino.uacorrelativas"
-        version   = "2.1">
+        version   = "2.2">
 
     <name>UA Correlativas</name>
 
@@ -61,6 +61,7 @@
 
     <!-- Third party plugins -->
     <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
