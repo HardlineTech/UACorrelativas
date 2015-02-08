@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ac40c3-c008-4d2c-b8d7-1232f135bfe6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_comunicacion.html" afterPath="$PROJECT_DIR$/correlativas_comunicacion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_derecho.html" afterPath="$PROJECT_DIR$/correlativas_derecho.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_industrial.html" afterPath="$PROJECT_DIR$/correlativas_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_informatica.html" afterPath="$PROJECT_DIR$/correlativas_informatica.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/materialize.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_comunicacion.html" afterPath="$PROJECT_DIR$/index_comunicacion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_derecho.html" afterPath="$PROJECT_DIR$/index_derecho.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_industrial.html" afterPath="$PROJECT_DIR$/index_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_informatica.html" afterPath="$PROJECT_DIR$/index_informatica.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_comunicacion.html" afterPath="$PROJECT_DIR$/para_que_sirve_comunicacion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_derecho.html" afterPath="$PROJECT_DIR$/para_que_sirve_derecho.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_industrial.html" afterPath="$PROJECT_DIR$/para_que_sirve_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_informatica.html" afterPath="$PROJECT_DIR$/para_que_sirve_informatica.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan_comunicacion.html" afterPath="$PROJECT_DIR$/plan_comunicacion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan_industrial.html" afterPath="$PROJECT_DIR$/plan_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regimen_academico_industrial.html" afterPath="$PROJECT_DIR$/regimen_academico_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UA Correlativas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,24 @@
     <favorites_list name="UA Correlativas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="8" selection-start="3072" selection-end="3072" vertical-scroll-proportion="1.778626" vertical-offset="382" max-vertical-offset="1785">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -58,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/regimen_academico_industrial.html" />
         <option value="$PROJECT_DIR$/index_industrial.html" />
         <option value="$PROJECT_DIR$/index_derecho.html" />
@@ -74,6 +87,7 @@
         <option value="$PROJECT_DIR$/correlativas_informatica.html" />
         <option value="$PROJECT_DIR$/index_comunicacion.html" />
         <option value="$PROJECT_DIR$/plan_comunicacion.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -90,7 +104,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -143,10 +157,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\UA Correlativas\js" />
+      <recent name="C:\xampp\htdocs\UA Correlativas\font" />
+      <recent name="C:\xampp\htdocs\UA Correlativas\css" />
       <recent name="C:\xampp\htdocs\UA Correlativas\images\splash" />
       <recent name="C:\xampp\htdocs\UA Correlativas" />
-      <recent name="C:\xampp\htdocs\UA Correlativas\icons" />
-      <recent name="C:\xampp\htdocs\UA Correlativas\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\UA Correlativas\icons" />
@@ -213,13 +228,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -246,43 +261,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regimen_academico_industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="164" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.30112723" vertical-offset="680" max-vertical-offset="3009">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.4879227" vertical-offset="411" max-vertical-offset="1071">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_derecho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.65700483" vertical-offset="306" max-vertical-offset="1037">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_informatica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.5426731" vertical-offset="377" max-vertical-offset="1037">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.22585669" vertical-offset="654" max-vertical-offset="1819">
@@ -338,8 +316,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.55607474" vertical-offset="357" max-vertical-offset="1054">
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -399,8 +376,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="29" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.66199374" vertical-offset="442" max-vertical-offset="1768">
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/materialize.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="355" selection-end="357" vertical-scroll-proportion="0.25449103" vertical-offset="0" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="8" selection-start="3072" selection-end="3072" vertical-scroll-proportion="1.778626" vertical-offset="382" max-vertical-offset="1785">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
