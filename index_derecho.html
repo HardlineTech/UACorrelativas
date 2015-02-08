@@ -7,14 +7,14 @@
     <link href="css/alertify.core.css" rel="stylesheet">
     <link href="css/alertify.default.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <style>
         @import url(http://fonts.googleapis.com/css?family=Metrophobic);
         body, html {
             background-color: #feffeb;
         }
         h1{
-            font-family: 'Metrophobic', sans-serif;
-            color: #000000;
+            font-family: 'Roboto', sans-serif;
         }
         option {
             color: #000000;
@@ -22,23 +22,43 @@
         select {
             color: #000000;
         }
-        li {
-            list-style-type: none;
-            margin-top: 10px;
-            margin-bottom: 10px;
+        a {
+            text-shadow: none;
         }
-        ul li a {
-            background-color: #428bca;
-            color: #ffffff;
-            font-size: 20pt;
-        }
-        .nav>li>a:hover, .nav>li>a:focus {
-            background-color: #428bca;
-            color: #ffffff;
-        }
+            /*li {*/
+            /*list-style-type: none;*/
+            /*margin-top: 10px;*/
+            /*margin-bottom: 10px;*/
+            /*}*/
+            /*ul li a {*/
+            /*background-color: #428bca;*/
+            /*color: #ffffff;*/
+            /*font-size: 20pt;*/
+            /*}*/
+
     </style>
+
 </head>
 <body>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="easter.html" class="brand-logo" style="text-decoration: none">UA</a>
+        <ul id="nav-mobile" class="right side-nav">
+            <li><a href="index_industrial.html" style="text-decoration: none">Ing. Industrial <i class="fa fa-wrench"></i></a></li>
+            <li><a href="index_informatica.html" style="text-decoration: none">Ing. Informatica <i class="fa fa-code"></i></a></li>
+            <li><a href="index_derecho.html" style="text-decoration: none">Derecho <i class="fa fa-gavel"></i></a></li>
+            <li><a href="index_comunicacion.html" style="text-decoration: none">Comunicacion <i class="fa fa-comments-o"></i></a></li>
+        </ul>
+
+        <!-- Include this line below -->
+        <a class="button-collapse" href="#" data-activates="nav-mobile" style="text-decoration: none"><i class="mdi-navigation-menu"></i></a>
+        <!-- End -->
+
+    </div>
+</nav>
+
+
 <div class="container">
     <a href="easter.html" style="text-decoration: none; text-align: left"><h1 style="font-family: 'Roboto', sans-serif; font-size: 50pt; color: #428bca">UA</h1></a>
     <h1>Derecho</h1>
@@ -52,5 +72,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/alertify.min.js"></script>
 <script src="js/moment-with-langs.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+<script>
+    $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
+</script>
+
 </body>
 </html>
