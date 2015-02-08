@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46ac40c3-c008-4d2c-b8d7-1232f135bfe6" name="Default" comment="" />
+    <list default="true" id="46ac40c3-c008-4d2c-b8d7-1232f135bfe6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_comunicacion.html" afterPath="$PROJECT_DIR$/correlativas_comunicacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_derecho.html" afterPath="$PROJECT_DIR$/correlativas_derecho.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_industrial.html" afterPath="$PROJECT_DIR$/correlativas_industrial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/correlativas_informatica.html" afterPath="$PROJECT_DIR$/correlativas_informatica.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_comunicacion.html" afterPath="$PROJECT_DIR$/index_comunicacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_derecho.html" afterPath="$PROJECT_DIR$/index_derecho.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_industrial.html" afterPath="$PROJECT_DIR$/index_industrial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_informatica.html" afterPath="$PROJECT_DIR$/index_informatica.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_comunicacion.html" afterPath="$PROJECT_DIR$/para_que_sirve_comunicacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_derecho.html" afterPath="$PROJECT_DIR$/para_que_sirve_derecho.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_industrial.html" afterPath="$PROJECT_DIR$/para_que_sirve_industrial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/para_que_sirve_informatica.html" afterPath="$PROJECT_DIR$/para_que_sirve_informatica.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan_comunicacion.html" afterPath="$PROJECT_DIR$/plan_comunicacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan_industrial.html" afterPath="$PROJECT_DIR$/plan_industrial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regimen_academico_industrial.html" afterPath="$PROJECT_DIR$/regimen_academico_industrial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="UA Correlativas.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,45 +40,40 @@
     <favorites_list name="UA Correlativas" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="126" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.51713395" vertical-offset="518" max-vertical-offset="1241">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/correlativas_informatica.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/regimen_academico_industrial.html" />
+        <option value="$PROJECT_DIR$/index_industrial.html" />
+        <option value="$PROJECT_DIR$/index_derecho.html" />
+        <option value="$PROJECT_DIR$/index_informatica.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_comunicacion.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_derecho.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_industrial.html" />
         <option value="$PROJECT_DIR$/para_que_sirve_informatica.html" />
-        <option value="$PROJECT_DIR$/correlativas_derecho.html" />
+        <option value="$PROJECT_DIR$/plan_industrial.html" />
         <option value="$PROJECT_DIR$/correlativas_comunicacion.html" />
+        <option value="$PROJECT_DIR$/correlativas_derecho.html" />
+        <option value="$PROJECT_DIR$/correlativas_industrial.html" />
+        <option value="$PROJECT_DIR$/correlativas_informatica.html" />
         <option value="$PROJECT_DIR$/index_comunicacion.html" />
         <option value="$PROJECT_DIR$/plan_comunicacion.html" />
-        <option value="$PROJECT_DIR$/easter.html" />
-        <option value="$PROJECT_DIR$/js/CorrelativasIndustrial.js" />
-        <option value="$PROJECT_DIR$/plan_industrial.html" />
-        <option value="$PROJECT_DIR$/index_industrial.html" />
-        <option value="$PROJECT_DIR$/regimen_academico_industrial.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -70,7 +83,7 @@
     <option name="width" value="1552" />
     <option name="height" value="842" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -120,9 +133,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,14 +154,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -153,6 +162,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -169,6 +186,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="46ac40c3-c008-4d2c-b8d7-1232f135bfe6" name="Default" comment="" />
@@ -212,125 +246,161 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/correlativas_derecho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="85" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-17.653847" vertical-offset="340" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correlativas_industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correlativas_informatica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="85" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-15.038462" vertical-offset="408" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-11.153846" vertical-offset="441" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_comunicacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="946" selection-end="946" vertical-scroll-proportion="-7.8846154" vertical-offset="356" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regimen_academico_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="62" selection-start="7375" selection-end="7375" vertical-scroll-proportion="2.0402577" vertical-offset="1402" max-vertical-offset="3009">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_informatica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6356467" vertical-offset="403" max-vertical-offset="1037">
-          <folding />
+        <state line="51" column="164" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.30112723" vertical-offset="680" max-vertical-offset="3009">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="83" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.6388013" vertical-offset="411" max-vertical-offset="1071">
-          <folding />
+        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.4879227" vertical-offset="411" max-vertical-offset="1071">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_derecho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.65700483" vertical-offset="306" max-vertical-offset="1037">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_informatica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.5426731" vertical-offset="377" max-vertical-offset="1037">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="82" selection-start="2614" selection-end="2673" vertical-scroll-proportion="0.7050473" vertical-offset="1185" max-vertical-offset="1819">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.22585669" vertical-offset="654" max-vertical-offset="1819">
           <folding>
-            <marker date="1402624649519" expanded="false" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425062047" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_derecho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.423676" vertical-offset="527" max-vertical-offset="1819">
           <folding>
-            <marker date="1402624649492" expanded="false" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425062206" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_industrial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.635514" vertical-offset="391" max-vertical-offset="1819">
           <folding>
-            <marker date="1402624649506" expanded="false" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425062238" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/para_que_sirve_informatica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.76791275" vertical-offset="306" max-vertical-offset="1819">
           <folding>
-            <marker date="1402624649534" expanded="false" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425062193" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan_industrial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="99" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.66199374" vertical-offset="408" max-vertical-offset="3519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_comunicacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="164" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.55607474" vertical-offset="357" max-vertical-offset="1054">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.57099235" vertical-offset="374" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlativas_informatica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.3707165" vertical-offset="561" max-vertical-offset="1802">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425119021" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlativas_industrial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.2647975" vertical-offset="629" max-vertical-offset="1785">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425119013" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlativas_derecho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.39719626" vertical-offset="544" max-vertical-offset="1785">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425119028" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlativas_comunicacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="164" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.50311524" vertical-offset="476" max-vertical-offset="1785">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1423425119052" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plan_comunicacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plan_industrial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_derecho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="126" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.51713395" vertical-offset="518" max-vertical-offset="1241">
+        <state line="51" column="29" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.66199374" vertical-offset="442" max-vertical-offset="1768">
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
