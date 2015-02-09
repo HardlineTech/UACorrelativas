@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/alertify.core.css" rel="stylesheet">
+    <link href="css/alertify.default.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <style>
+        body, html {
+            background-color: #feffeb;
+            color: black;
+        }
+        h1{
+            font-family: 'Metrophobic', sans-serif;
+            color: black;
+            margin-bottom: 35px;
+        }
+        label{
+            color: black;
+        }
+        option {
+            color: black;
+        }
+        select {
+            color: black;
+        }
+        li {
+            list-style-type: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 15pt;
+        }
+        ul li a {
+            background-color: #428bca;
+            color: black;
+            font-size: 20pt;
+        }
+        .nav>li>a:hover, .nav>li>a:focus {
+            background-color: #428bca;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="easter.html" style="text-decoration: none; text-align: left"><h1 style="font-family: 'Roboto', sans-serif; font-size: 50pt; color: #428bca">UA</h1></a>
+    <h1>Ing. Industrial</h1>
+    <label for="selector">Materia: </label>
+    <select id="selector" class="form-control">
+
+    </select>
+    <div class="correlativas">
+        <h1>Te habilita:</h1>
+        <ul></ul>
+    </div>
+</div>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/alertify.min.js"></script>
+<script src="js/moment-with-langs.min.js"></script>
+<!--<script src="js/correlativas.js"></script>-->
+<script src="js/CorrelativasIndustrialMecatronica.js"></script>
+
+<script>
+    L = array.length;
+
+    for(var $i=0 ; $i < L ; $i++){
+        $('#selector').append('<option value="'+array[$i][1]+'">'+array[$i][1]+'</option>');
+    }
+
+    $('#selector').change(function(){
+        get_ParaQueSirve();
+    });
+
+    $('#selector').click(function(){
+        get_ParaQueSirve();
+    });
+
+    function get_ParaQueSirve(){
+        $('li').remove();
+        $('h3').remove();
+        target = $('select option:selected').val();
+        sirve = 0;
+        for(var $i = 0 ; $i < L ; $i++){
+            L2 = array[$i].length;
+            for(var $j = 2 ; $j < L2 ; $j++){
+                if(array[$i][$j] == target){
+                    $('ul').append('<li>'+array[$i][1]+'</li>');
+                    sirve++;
+                }
+            }
+        }
+        if(sirve == 0){
+            $('ul').append('<h3 style="color: red">No te habilita ninguna materia!</h3>');
+        }
+    }
+</script>
+</body>
+</html>
