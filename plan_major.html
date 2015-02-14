@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UA Correlativas</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assets/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/revolution_slider/css/rs-style.css" media="screen">
+    <link rel="stylesheet" href="assets/revolution_slider/rs-plugin/css/settings.css" media="screen">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #correlatives {
+            font-size: 20pt;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header start-->
+    <header class="header-frontend">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">UA<span>Correlativas</span></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+    <div class="container" id="container">
+    </div>
+
+    <!--footer start-->
+    <footer class="footer" style="position: absolute; bottom: 0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-3"></div>
+                <div class="col-lg-5 col-sm-5"></div>
+                <div class="col-lg-3 col-sm-3 col-lg-offset-1">
+                    <i class="fa fa-code" style="color: #ff774b"></i> Desarrollado por Juan Gesino & Agustin Quintas
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+
+    <script src="assets/fancybox/source/jquery.fancybox.pack.js"></script>
+
+    <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+    <script src="js/revulation-slide.js"></script>
+
+
+    <script>
+
+        RevSlide.initRevolutionSlider();
+
+        $(window).load(function() {
+            $('[data-zlname = reverse-effect]').mateHover({
+                position: 'y-reverse',
+                overlayStyle: 'rolling',
+                overlayBg: '#fff',
+                overlayOpacity: 0.7,
+                overlayEasing: 'easeOutCirc',
+                rollingPosition: 'top',
+                popupEasing: 'easeOutBack',
+                popup2Easing: 'easeOutBack'
+            });
+        });
+
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+
+        //    fancybox
+        jQuery(".fancybox").fancybox();
+
+
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            major_id = getUrlVars()['id'];
+            $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
+                var items = [];
+                $.each( data, function( key, val ) {
+                    if(val.id == major_id){
+                        name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 120px'>" + val.name + "</h2>";
+                        $(name).prependTo('#container');
+                    }
+                    if(val.has_orientation){
+                        items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                    }else{
+                        items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                    }
+                });
+                $(items.join( "" )).appendTo('.navbar-nav')
+            });
+
+            $.getJSON( "http://uacorrelativas.herokuapp.com/api/plan/major/"+major_id+".json", function( data ) {
+                var items = [];
+                $.each( data, function( key, val ) {
+                    console.log(val);
+                    i = 1;
+                    $.each(val, function(key, semester){
+                        switch(i) {
+                            case 1:
+                                year = '1er';
+                                break;
+                            case 2:
+                                year = '2do';
+                                break;
+                            case 3:
+                                year = '3ro';
+                                break;
+                            case 4:
+                                year = '4to';
+                                break;
+                            case 5:
+                                year = '5to';
+                                break;
+
+                        }
+                        items.push( "<h3>"+year+" a&ntilde;o</h3>" );
+                        items.push( "<h5 style='font-weight: bold'>Primer Cuatrimestre:</h5>" );
+                        items.push( "<ul style='list-style: none'>" );
+                        $.each(semester[0], function(key, subj){
+                            items.push( "<li>"+subj+"</li>" );
+                        });
+                        items.push( "</ul>" );
+                        items.push( "<h5 style='font-weight: bold'>Segundo Cuatrimestre:</h5>" );
+                        items.push( "<ul style='list-style: none'>" );
+                        $.each(semester[1], function(key, subj){
+                            items.push( "<li>"+subj+"</li>" );
+                        });
+                        items.push( "</ul>" );
+                        i++;
+                    });
+                });
+                $(items.join( "" )).appendTo('#container')
+            });
+
+        });
+    </script>
+
+</body>
+</html>
