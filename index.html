@@ -89,6 +89,7 @@
 
     <!--common script for all pages-->
     <script src="js/common-scripts.js"></script>
+    <script src="js/loading.js"></script>
 
     <script src="js/revulation-slide.js"></script>
 
@@ -127,6 +128,17 @@
     </script>
     <script>
         $(document).ready(function(){
+
+            $.blockUI({ css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#000',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .5,
+                color: '#fff'
+            } });
+
             $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
                 var items = [];
                 $.each( data, function( key, val ) {
@@ -138,6 +150,7 @@
                 });
                 $(items.join( "" )).appendTo('.navbar-nav')
             });
+            $.unblockUI();
         });
     </script>
 

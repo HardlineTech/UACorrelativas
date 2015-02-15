@@ -50,7 +50,7 @@
     </header>
     <!--header end-->
     <div class="container" id="container">
-        <h3>Selecciona una orientacion:</h3>
+
     </div>
 
     <!--footer start-->
@@ -125,25 +125,29 @@
     </script>
     <script>
         $(document).ready(function(){
-            mayor_id = getUrlVars()['id'];
+            major_id = getUrlVars()['id'];
             $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
                 var items = [];
                 $.each( data, function( key, val ) {
-                    if(val.id == mayor_id){
-                        name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 120px'>" + val.name + "</h2>";
-                        $(name).prependTo('#container');
-                    }
                     if(val.has_orientation){
                         items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
                     }else{
                         items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
                     }
                 });
-                $(items.join( "" )).appendTo('.navbar-nav')
+                $(items.join( "" )).appendTo('.navbar-nav');
             });
 
-            major_id = getUrlVars()['id'];
-            buttons = '<a class="btn btn-success btn-lg btn-block" type="button" style="margin-top: 120px" href="correlativas_orientation.html?id='+major_id+'">Correlativas</a><a class="btn btn-primary btn-lg btn-block" type="button" style="margin-top: 25px" href="enables_orientation.html?id='+major_id+'">Que me habilita?</a><a class="btn btn-warning btn-lg btn-block" type="button" style="margin-top: 25px" href="plan_orientation.html?id='+major_id+'">Plan de estudios</a>';
+            $.getJSON( "http://uacorrelativas.herokuapp.com/api/orientation/"+major_id+".json", function( data ) {
+                console.log(data);
+                name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='font-weight: bold'>" + data["major"].name + "</h2>";
+                name = name + "<h3 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 10px;font-weight: lighter'>" + data["orientation"].name + "</h3>";
+                $(name).prependTo('#container');
+            });
+
+
+
+            buttons = '<a class="btn btn-success btn-lg btn-block" type="button" style="margin-top: 70px" href="correlativas_orientation.html?id='+major_id+'">Correlativas</a><a class="btn btn-primary btn-lg btn-block" type="button" style="margin-top: 25px" href="enables_orientation.html?id='+major_id+'">Que me habilita?</a><a class="btn btn-warning btn-lg btn-block" type="button" style="margin-top: 25px" href="plan_orientation.html?id='+major_id+'">Plan de estudios</a>';
             $(buttons).appendTo('#container');
         });
     </script>

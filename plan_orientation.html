@@ -142,16 +142,14 @@
                 $(items.join( "" )).appendTo('.navbar-nav')
             });
 
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/orientations.json", function( data ) {
-                var items = [];
-                $.each( data, function( key, val ) {
-                    if(val.id == major_id){
-                        name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 120px'>"+ val.major + ": <br>" + val.name + "</h2>";
-                        $(name).prependTo('#container');
-                    }
-                });
-                $(items.join( "" )).appendTo('.navbar-nav')
+
+            $.getJSON( "http://uacorrelativas.herokuapp.com/api/orientation/"+major_id+".json", function( data ) {
+                console.log(data);
+                name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='font-weight: bold'>" + data["major"].name + "</h2>";
+                name = name + "<h3 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 10px;font-weight: lighter'>" + data["orientation"].name + "</h3>";
+                $(name).prependTo('#container');
             });
+
 
             $.getJSON( "http://uacorrelativas.herokuapp.com/api/plan/orientation/"+major_id+".json", function( data ) {
                 var items = [];
