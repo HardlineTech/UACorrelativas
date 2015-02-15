@@ -58,7 +58,7 @@
     </div>
 
     <!--footer start-->
-    <footer class="footer" style="position: absolute; bottom: 0">
+    <footer class="footer" style="position: relative; bottom: 0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-3"></div>
@@ -90,6 +90,7 @@
     <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!--common script for all pages-->
+    <script src="js/loading.js"></script>
     <script src="js/common-scripts.js"></script>
 
     <script src="js/revulation-slide.js"></script>
@@ -128,9 +129,26 @@
 
     </script>
     <script>
+        $.blockUI({ css: {
+            border: 'none',
+            padding: '15px',
+            backgroundColor: '#000',
+            '-webkit-border-radius': '10px',
+            '-moz-border-radius': '10px',
+            opacity: .5,
+            color: '#fff'
+        } });
         $(document).ready(function(){
             major_id = getUrlVars()['id'];
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
+            var url = "http://uacorrelativas.herokuapp.com/api/majors.json";
+            $.ajax({
+                dataType: "json",
+                url: url,
+                success: success,
+                error: error,
+                timeout: timeout
+            });
+            function success(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     if(val.id == major_id){
@@ -144,12 +162,18 @@
                     }
                 });
                 $(items.join( "" )).appendTo('.navbar-nav')
-            });
-
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/plan/major/"+major_id+".json", function( data ) {
+            }
+            var url2 = "http://uacorrelativas.herokuapp.com/api/plan/major/"+major_id+".json";
+            $.ajax({
+                dataType: "json",
+                url: url2,
+                success: success2,
+                error: error,
+                timeout: timeout
+            }).done(done);
+            function success2(data){
                 var items = [];
                 $.each( data, function( key, val ) {
-                    console.log(val);
                     i = 1;
                     $.each(val, function(key, semester){
                         switch(i) {
@@ -187,8 +211,7 @@
                     });
                 });
                 $(items.join( "" )).appendTo('#container')
-            });
-
+            }
         });
     </script>
 

@@ -93,6 +93,7 @@
     <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!--common script for all pages-->
+    <script src="js/loading.js"></script>
     <script src="js/common-scripts.js"></script>
 
     <script src="js/revulation-slide.js"></script>
@@ -131,9 +132,26 @@
 
     </script>
     <script>
+        $.blockUI({ css: {
+            border: 'none',
+            padding: '15px',
+            backgroundColor: '#000',
+            '-webkit-border-radius': '10px',
+            '-moz-border-radius': '10px',
+            opacity: .5,
+            color: '#fff'
+        } });
         $(document).ready(function(){
             major_id = getUrlVars()['id'];
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
+            var url = "http://uacorrelativas.herokuapp.com/api/majors.json";
+            $.ajax({
+                dataType: "json",
+                url: url,
+                success: success,
+                error: error,
+                timeout: timeout
+            });
+            function success(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     if(val.id == major_id){
@@ -146,21 +164,45 @@
                         items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
                     }
                 });
-                $(items.join( "" )).appendTo('.navbar-nav')
-            });
-
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/subjects/mayor/"+major_id+".json", function( data ) {
+                $(items.join( "" )).appendTo('.navbar-nav');
+            }
+            var url2 = "http://uacorrelativas.herokuapp.com/api/subjects/mayor/"+major_id+".json";
+            $.ajax({
+                dataType: "json",
+                url: url2,
+                success: success2,
+                error: error,
+                timeout: timeout
+            }).done(done);
+            function success2(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     items.push( "<option value='"+val.id+"'>" + val.name + "</option>" );
                 });
                 $(items.join( "" )).appendTo('select')
-            });
+            }
 
             $('select').change(function(){
+                $.blockUI({ css: {
+                    border: 'none',
+                    padding: '15px',
+                    backgroundColor: '#000',
+                    '-webkit-border-radius': '10px',
+                    '-moz-border-radius': '10px',
+                    opacity: .5,
+                    color: '#fff'
+                } });
                 $('#correlatives').empty();
                 subject_id = $(this).val();
-                $.getJSON( "http://uacorrelativas.herokuapp.com/api/correlatives/"+subject_id+".json", function( data ) {
+                var url3 = "http://uacorrelativas.herokuapp.com/api/correlatives/"+subject_id+".json";
+                $.ajax({
+                    dataType: "json",
+                    url: url3,
+                    success: success3,
+                    error: error,
+                    timeout: timeout
+                }).done(done);
+                function success3(data){
                     var items = [];
                     $.each( data, function( key, val ) {
                         if(val.id != subject_id){
@@ -174,7 +216,7 @@
                         }
                     });
                     $(items.join( "" )).appendTo('#correlatives')
-                });
+                }
             });
 
         });

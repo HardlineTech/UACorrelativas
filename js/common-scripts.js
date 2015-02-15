@@ -20,3 +20,16 @@ function getUrlVars() {
     });
     return vars;
 }
+function error(){
+    alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+    done();
+}
+
+function timeout(){
+    alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+    done();
+}
+
+function done(){
+    $.unblockUI();
+}

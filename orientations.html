@@ -86,6 +86,7 @@
     <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!--common script for all pages-->
+    <script src="js/loading.js"></script>
     <script src="js/common-scripts.js"></script>
 
     <script src="js/revulation-slide.js"></script>
@@ -124,9 +125,26 @@
 
     </script>
     <script>
+        $.blockUI({ css: {
+            border: 'none',
+            padding: '15px',
+            backgroundColor: '#000',
+            '-webkit-border-radius': '10px',
+            '-moz-border-radius': '10px',
+            opacity: .5,
+            color: '#fff'
+        } });
         $(document).ready(function(){
             mayor_id = getUrlVars()['id'];
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
+            var url = "http://uacorrelativas.herokuapp.com/api/majors.json";
+            $.ajax({
+                dataType: "json",
+                url: url,
+                success: success,
+                error: error,
+                timeout: timeout
+            });
+            function success(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     if(val.id == mayor_id){
@@ -140,15 +158,24 @@
                     }
                 });
                 $(items.join( "" )).appendTo('.navbar-nav')
-            });
+            }
 
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/orientations/"+mayor_id+".json", function( data ) {
+
+            var url2 = "http://uacorrelativas.herokuapp.com/api/orientations/"+mayor_id+".json";
+            $.ajax({
+                dataType: "json",
+                url: url2,
+                success: success2,
+                error: error,
+                timeout: timeout
+            }).done(done);
+            function success2(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     items.push( '<a class="btn btn-warning btn-lg btn-block" type="button" style="margin-top: 30px" href="orientations_menu.html?id='+val.id+'">'+val.name+'</a>' );
                 });
                 $(items.join( "" )).appendTo('#container')
-            });
+            }
         });
     </script>
 
