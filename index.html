@@ -94,6 +94,22 @@
 
     <script src="js/revulation-slide.js"></script>
 
+    <script>
+        document.addEventListener("backbutton", function(e){
+            if($.mobile.activePage.is('#homepage')){
+                /*
+                 Event preventDefault/stopPropagation not required as adding backbutton
+                 listener itself override the default behaviour. Refer below PhoneGap link.
+                 */
+                //e.preventDefault();
+                navigator.app.exitApp();
+            }
+            else {
+                navigator.app.backHistory()
+            }
+        }, false);
+    </script>
+
 
     <script>
 
