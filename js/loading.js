@@ -112,7 +112,7 @@
         // override these in your code to change the default behavior and style
         $.blockUI.defaults = {
             // message displayed when blocking (use null for no message)
-            message:  '<i class="icon icon-spinner icon-spin" style="font-size: 70px;"></i>',
+            message:  '<i class="fa fa-spinner fa-spin" style="font-size: 70px;"></i>',
 //            message: null,
 
             title: null,		// title string; only used when theme == true

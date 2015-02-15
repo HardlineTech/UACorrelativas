@@ -88,8 +88,9 @@
     <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!--common script for all pages-->
-    <script src="js/common-scripts.js"></script>
     <script src="js/loading.js"></script>
+    <script src="js/common-scripts.js"></script>
+
 
     <script src="js/revulation-slide.js"></script>
 
@@ -127,19 +128,28 @@
 
     </script>
     <script>
+        $.blockUI({ css: {
+            border: 'none',
+            padding: '15px',
+            backgroundColor: '#000',
+            '-webkit-border-radius': '10px',
+            '-moz-border-radius': '10px',
+            opacity: .5,
+            color: '#fff'
+        } });
         $(document).ready(function(){
 
-            $.blockUI({ css: {
-                border: 'none',
-                padding: '15px',
-                backgroundColor: '#000',
-                '-webkit-border-radius': '10px',
-                '-moz-border-radius': '10px',
-                opacity: .5,
-                color: '#fff'
-            } });
 
-            $.getJSON( "http://uacorrelativas.herokuapp.com/api/majors.json", function( data ) {
+            var url = "http://uacorrelativas.herokuapp.com/api/majors.json";
+            $.ajax({
+                dataType: "json",
+                url: url,
+                success: success,
+                error: error,
+                timeout: timeout
+            }).done(done);
+
+            function success(data){
                 var items = [];
                 $.each( data, function( key, val ) {
                     if(val.has_orientation){
@@ -148,9 +158,24 @@
                         items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
                     }
                 });
-                $(items.join( "" )).appendTo('.navbar-nav')
-            });
-            $.unblockUI();
+                $(items.join( "" )).appendTo('.navbar-nav');
+
+            }
+
+            function error(){
+                alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+                done();
+            }
+
+            function timeout(){
+                alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+                done();
+            }
+
+            function done(){
+                $.unblockUI();
+            }
+
         });
     </script>
 
