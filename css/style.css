@@ -67,7 +67,7 @@ p {line-height: 22px}
 }
 
 .navbar-brand span{
-    color: #eaf04e;
+    color: #00aee0;
     font-weight: 300;
 }
 
@@ -81,7 +81,7 @@ p {line-height: 22px}
 }
 
 .header-frontend .nav li a, .header-frontend .nav li.active ul.dropdown-menu li a {
-    color: #999;
+    color: #0cbfe9;
     font-size: 14px;
     font-weight: 300;
     background: none;
