@@ -216,17 +216,18 @@
                 }).done(done);
                 function success4(data){
                     var items = [];
-                    $.each( data, function( key, val ) {
-                        if(val.id != subject_id){
-                            if(val[0] == undefined){
-                                items.push( "<li>Esta materia no tiene correlativas!</li>" );
-                            }else{
-                                if(val[0].correlative_name != undefined){
-                                    items.push( "<li>" + val[0].correlative_name + "</li>" );
+                    console.log(data);
+                    if(data['correlatives'].length == 0){
+                        items.push( "<li>Esta materia no tiene correlativas!</li>" );
+                    }else{
+                        $.each( data['correlatives'], function( key, val ) {
+                            if(val.id != subject_id){
+                                if(val.correlative_name != undefined){
+                                    items.push( "<li>" + val.correlative_name + "</li>" );
                                 }
                             }
-                        }
-                    });
+                        });
+                    }
                     $(items.join( "" )).appendTo('#correlatives')
                 }
             });
