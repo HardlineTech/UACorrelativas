@@ -216,18 +216,19 @@
                 }).done(done);
                 function success4(data){
                     var items = [];
-                    $.each( data, function( key, val ) {
-                        if(val.id != subject_id){
-                            if(val[0] == undefined){
-                                items.push( "<li>Esta materia no te habilita ninguna otra!</li>" );
-                            }else{
-                                if(val[0].enable_name != undefined){
-                                    items.push( "<li>" + val[0].enable_name + "</li>" );
+                    if(data['enables'].length == 0){
+                        items.push( "<li>Esta materia no tiene correlativas!</li>" );
+                    }else{
+                        $.each( data['enables'], function( key, val ) {
+                            if(val.id != subject_id){
+                                if(val.enable_name != undefined){
+                                    items.push( "<li>" + val.enable_name + "</li>" );
                                 }
                             }
-                        }
-                    });
-                    $(items.join( "" )).appendTo('#correlatives')
+                        });
+                    }
+
+                    $(items.join( "" )).appendTo('#correlatives');
                 }
             });
 
