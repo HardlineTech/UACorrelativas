@@ -153,10 +153,12 @@
             function success(data){
                 var items = [];
                 $.each( data, function( key, val ) {
-                    if(val.has_orientation){
-                        items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
-                    }else{
-                        items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                    if(!val.disabled){
+                        if(val.has_orientation){
+                            items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                        }else{
+                            items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                        }
                     }
                 });
                 $(items.join( "" )).appendTo('.navbar-nav')

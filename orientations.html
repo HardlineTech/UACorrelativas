@@ -151,10 +151,12 @@
                         name = "<h2 style='font-family: \"Roboto\", sans-serif' class='major' style='margin-bottom: 120px'>" + val.name + "</h2>";
                         $(name).prependTo('#container');
                     }
-                    if(val.has_orientation){
-                        items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
-                    }else{
-                        items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                    if(!val.disabled){
+                        if(val.has_orientation){
+                            items.push( "<li><a href='orientations.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                        }else{
+                            items.push( "<li><a href='major.html?id="+val.id+"'>" + val.name + "</a></li>" );
+                        }
                     }
                 });
                 $(items.join( "" )).appendTo('.navbar-nav')
