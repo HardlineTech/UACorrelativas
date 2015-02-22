@@ -219,13 +219,11 @@
                 function success4(data){
                     var items = [];
                     if(data['enables'].length == 0){
-                        items.push( "<li>Esta materia no tiene correlativas!</li>" );
+                        items.push( "<li>Esta materia no habilita ninguna otra!</li>" );
                     }else{
                         $.each( data['enables'], function( key, val ) {
-                            if(val.id != subject_id){
-                                if(val.enable_name != undefined){
-                                    items.push( "<li>" + val.enable_name + "</li>" );
-                                }
+                            if(val.enable_name != undefined){
+                                items.push( "<li>" + val.enable_name + "</li>" );
                             }
                         });
                     }

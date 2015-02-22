@@ -222,10 +222,8 @@
                         items.push( "<li>Esta materia no tiene correlativas!</li>" );
                     }else{
                         $.each( data['correlatives'], function( key, val ) {
-                            if(val.id != subject_id){
-                                if(val.correlative_name != undefined){
-                                    items.push( "<li>" + val.correlative_name + "</li>" );
-                                }
+                            if(val.correlative_name != undefined){
+                                items.push( "<li>" + val.correlative_name + "</li>" );
                             }
                         });
                     }

@@ -27,7 +27,7 @@ function reload(){
 
 function error(){
     $('#container').empty().css("text-align", "center");
-    html = "<img src='img/sad.png' width='120px'><br><br><h4>Parece que no hay conexión a internet!</h4><br><br><button class='btn btn-primary' id='reload' onclick='reload()'>Reload <i class='fa fa-refresh'></i></button>";
+    html = "<img src='img/sad.png' width='120px'><br><br><h4>Parece que tenemos un problema en el servidor!</h4><br><br><button class='btn btn-primary' id='reload' onclick='reload()'>Reload <i class='fa fa-refresh'></i></button>";
     $(html).appendTo('#container');
     done();
 }

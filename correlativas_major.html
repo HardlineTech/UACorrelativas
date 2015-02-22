@@ -207,13 +207,11 @@
                 function success3(data){
                     var items = [];
                     $.each( data, function( key, val ) {
-                        if(val.id != subject_id){
-                            if(val[0] == undefined){
-                                items.push( "<li>Esta materia no tiene correlativas!</li>" );
-                            }else{
-                                if(val[0].correlative_name != undefined){
-                                    items.push( "<li>" + val[0].correlative_name + "</li>" );
-                                }
+                        if(val[0] == undefined){
+                            items.push( "<li>Esta materia no tiene correlativas!</li>" );
+                        }else{
+                            if(val[0].correlative_name != undefined){
+                                items.push( "<li>" + val[0].correlative_name + "</li>" );
                             }
                         }
                     });
