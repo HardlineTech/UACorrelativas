@@ -20,13 +20,22 @@ function getUrlVars() {
     });
     return vars;
 }
+
+function reload(){
+    location.reload();
+}
+
 function error(){
-    alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+    $('#container').empty().css("text-align", "center");
+    html = "<img src='img/sad.png' width='120px'><br><br><h4>Parece que no hay conexión a internet!</h4><br><br><button class='btn btn-primary' id='reload' onclick='reload()'>Reload <i class='fa fa-refresh'></i></button>";
+    $(html).appendTo('#container');
     done();
 }
 
 function timeout(){
-    alert("Hola! UACorrelativas necesita una conexion a internet. Asegurate de estar conectado y vuelve a intentarlo.");
+    $('#container').empty().css("text-align", "center");
+    html = "<img src='img/sad.png' width='120px'><br><br><h4>Parece que no hay conexión a internet!</h4><br><br><button class='btn btn-primary' id='reload' onclick='reload()'>Reload <i class='fa fa-refresh'></i></button>";
+    $(html).appendTo('#container');
     done();
 }
 
