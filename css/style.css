@@ -82,9 +82,9 @@ p {line-height: 22px}
 
 .header-frontend .nav li a, .header-frontend .nav li.active ul.dropdown-menu li a {
     color: #0cbfe9;
-    font-size: 14px;
     font-weight: 300;
     background: none;
+    font-size: 20px;
 }
 
 .header-frontend .nav li a:hover,
