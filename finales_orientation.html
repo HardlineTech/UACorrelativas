@@ -93,8 +93,8 @@
     <script type="text/javascript" src="assets/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!--common script for all pages-->
-    <script src="js/common-scripts.js"></script>
     <script src="js/loading.js"></script>
+    <script src="js/common-scripts.js"></script>
 
     <script src="js/revulation-slide.js"></script>
 
@@ -194,6 +194,7 @@
                 $(items.join( "" )).appendTo('select')
             }
 
+
             $('select').change(function(){
                 $.blockUI({ css: {
                     border: 'none',
@@ -206,8 +207,7 @@
                 } });
                 $('#correlatives').empty();
                 subject_id = $(this).val();
-
-                var url4 = "http://uacorrelativas.herokuapp.com/api/enable/"+subject_id+".json";
+                var url4 = "http://uacorrelativas.herokuapp.com/api/finals/"+subject_id+".json";
                 $.ajax({
                     dataType: "json",
                     url: url4,
@@ -217,17 +217,16 @@
                 }).done(done);
                 function success4(data){
                     var items = [];
-                    if(data['enables'].length == 0){
-                        items.push( "<li>Esta materia no habilita ninguna otra!</li>" );
+                    if(data['finals'].length == 0){
+                        items.push( "<li>Ningún final es necesario para cursar esta materia!</li>" );
                     }else{
-                        $.each( data['enables'], function( key, val ) {
-                            if(val.enable_name != undefined){
-                                items.push( "<li>" + val.enable_name + "</li>" );
+                        $.each( data['finals'], function( key, val ) {
+                            if(val.name != undefined){
+                                items.push( "<li>" + val.name + "</li>" );
                             }
                         });
                     }
-
-                    $(items.join( "" )).appendTo('#correlatives');
+                    $(items.join( "" )).appendTo('#correlatives')
                 }
             });
 
